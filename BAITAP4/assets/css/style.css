@@ -1,0 +1,97 @@
+* {margin: 0px;
+padding: 0px;
+box-sizing: border-box; font-family: 'Times New Roman', Times, serif;}
+body {background-color: gainsboro;}
+.link {text-decoration: none;
+color: inherit;}
+.container {width: 100%;
+display: flex;
+justify-content: center;
+align-content: center;
+flex-wrap: wrap;
+}
+.container>div {background-color:white;
+width: 300px;
+height: 300px;
+font-size: 20px;
+margin: 10px;
+border-radius: 10px;}
+.fe-img {width: 100%;
+height: 200px;}
+.fe-content, .java-content, .javacb-content, .fe-content1, .java-content1, .javacb-content1, .springboot-content, .springboot-content1 {margin: 10px;
+font-size: 20px;
+display: flex;
+justify-content: space-between;}
+.fe-img img {width: 100%;
+object-fit: cover;}
+.java-img {width: 300px;
+height: 200px;}
+.java-img img {width: 100%;
+object-fit: cover;
+height: 200px;}
+.java-content {width: 100%;
+height: 20px;}
+
+.javacb-img {width: 300px;
+    height: 200px;}
+    .javacb-img img {width: 100%;
+    object-fit: cover;
+    height: 200px;}
+    .javacb-content {width: 100%;
+    height: 20px;}
+
+    .springboot-img {width: 300px;
+        height: 200px;}
+        .springboot-img img {width: 100%;
+        object-fit: cover;
+        height: 200px;}
+        .springboot-content {width: 100%;
+        height: 20px;}
+
+        .golang-img {width: 300px;
+            height: 200px;}
+            .golang-img img {width: 100%;
+            object-fit: cover;
+            height: 200px;}
+            .golang-content {width: 100%;
+             margin: 10px;}
+            .golang-content1 {margin: 10px;
+                font-size: 20px;
+                display: flex;
+                justify-content: space-between;}
+
+                .lego-img, .devops-img, .python-img {width: 300px;
+                    height: 200px;}
+                    .lego-img img, .devops-img img, .python-img img  {width: 100%;
+                    object-fit: cover;
+                    height: 200px;}
+                    .lego-content, .devops-content, .python-content {width: 100%;
+                     margin: 10px;}
+                    .lego-content1, .devops-content1, .python-content1 {margin: 10px;
+                        font-size: 20px;
+                        display: flex;
+                        justify-content: space-between;}
+          
+.footer {width: 100%;
+display: flex;
+height: 350px;justify-content: center;
+align-content: center;
+flex-wrap: wrap;
+margin-top:auto ;
+background-color:#30598c;
+line-height: 2;}
+.footer>div {background-color: #30598c;
+    height: 350px;
+    font-size: 20px;
+color: white;
+text-align: left;
+font-size: 17px;}
+.footer1, .footer4 {width: 25%;
+padding: 30px;}
+.footer2 {width: 20%;
+padding-top: 30px;}
+.footer3 {width: 30%;
+padding-top: 30px;}
+.icon {font-size: 30px;
+letter-spacing: 4px;}
+
